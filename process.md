@@ -10,7 +10,7 @@ We need to track both the current and which nodes have been visited.
 Use a bitmask to represent the visited set: (1 << n) -1 represents the state.
 
 3. search method 
-apprently a BFS problem, so we use BFS 
+apparently a BFS problem, so we use BFS 
 define a state as (current node, visited_mask), when expanding, for each neighbor update mask
 each state may expand to at most n neighbors.
 
@@ -18,3 +18,4 @@ each state may expand to at most n neighbors.
 https://leetcode.com/problems/shortest-path-visiting-all-nodes/description/ Leetcode 847
 
 5. Link of Video Recording:
+https://www.youtube.com/watch?v=nidZ8MJrKJc
